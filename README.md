@@ -17,3 +17,4 @@ Role: Designing, Implementing, Testing.
 
 Project Member(s): 02
 
+![p6](https://user-images.githubusercontent.com/13907747/42936041-f06ed87c-8b6c-11e8-8e48-150034e48288.jpg)

@@ -94,26 +94,19 @@ f:
 
     t(65,22);
     gotoxy(14,12);
-    printf("\n\t\t1.Bill Report\n\n");
+    printf("\n\t\t1.Bill Payment\n\n");
     printf("\t\t2.Add/Remove/Edit Item\n\n");
     printf("\t\t3.Show Item Detls\n\n");
     printf("\t\t4.Exit\n\n");
     gotoxy(10,25);
-    printf("(PLEASE PRESS OPTION NUMIER ONLY)");
+    printf("(PLEASE PRESS OPTION NUMBER ONLY)");
     char ch;
     gotoxy(10,26);
     ch=getche();
     switch(ch)
     {
         era(10,26);
-//    case 'U':
-//        era(10,26);
-//        AI();
-//        break;
-//    case '1':
-//        era(10,26);
-//        br();
-//        break;
+
     case '4':
         era(10,26);
         gotoxy(10,25);
@@ -160,20 +153,7 @@ main()
     char a,b[10000];
     FILE *fp;
     mmenu();
-//    fp=fopen("new cus.dat","a");
-//    while(gets(b))
-//    {
-//        fputs(b,fp);
-//        fputs("\n",fp);
-//    }
-//    fclose(fp);
-//    fp=fopen("neew cus.dat","r");
-//    char c[121];
-//    while(fscanf(fp,"%s",c)!=EOF)
-//    {
-//        puts(c);
-//    }
-//    fclose(fp);
+
 }
 void AI()
 {
